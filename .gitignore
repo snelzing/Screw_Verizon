@@ -1,0 +1,10 @@
+.env
+.idea
+*.iml
+out
+# Django stuff:
+*.log
+db.sqlite3
+venv
+__pycache__
+migrations/
