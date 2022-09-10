@@ -1,0 +1,29 @@
+.collage {
+    background-image: url("img/Studio_Project (2).jpeg");
+    height: 100vh;
+    width: 100%;
+    z-index: 1;
+}
+
+h1 {
+    padding-top: 40vh;
+    font-size: 50pt;
+    text-align: center;
+}
+
+.description {
+    padding-bottom: 20vh;
+}
+
+div.form
+{
+    display: block;
+    text-align: center;
+}
+form
+{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
