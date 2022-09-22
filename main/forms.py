@@ -1,17 +1,13 @@
 from django import forms
 
-from .models import Post
+from .models import Post, Email
 
 
 class InputForm(forms.Form):
-    class Meta:
-        model = Post
-        fields = (
-            "screen_name",
-            "email",
-        )
-    name = forms.CharField()
-    email = forms.EmailField()
+    screen_name = forms.CharField(required=True)
+
+    # doing EmailInput makes the field not show up on the webpage
+    email = forms.EmailField(required=True)
 
 
 

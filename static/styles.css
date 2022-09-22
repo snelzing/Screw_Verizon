@@ -1,8 +1,13 @@
 .collage {
     background-image: url("img/Studio_Project (2).jpeg");
+    animation: mymove 5s infinite;
     height: 100vh;
     width: 100%;
     z-index: 1;
+}
+
+@keyframes mymove {
+  50% {background-position: center;}
 }
 
 h1 {
@@ -12,7 +17,13 @@ h1 {
 }
 
 .description {
-    padding-bottom: 20vh;
+    padding: 1.5rem;
+    margin-right: 4rem;
+    margin-left: 4rem;
+    background-color: lightgrey;
+    font-family: "Roboto", "Lucida Grande", "DejaVu Sans", "Bitstream Vera Sans", Verdana, Arial, sans-serif;
+    box-shadow: 0px 10px 5px 10px black;
+
 }
 
 div.form
@@ -20,10 +31,20 @@ div.form
     display: block;
     text-align: center;
 }
-form
-{
+form {
     display: inline-block;
     margin-left: auto;
-    margin-right: auto;
+    float: left;
+    margin-left: 4rem;
+    margin-bottom: 3rem;
     text-align: left;
+    padding: 2.5rem;
+    width: 35rem;
+    background-color: dimgrey;
+    box-shadow: 0px 10px 5px 10px black;
+    font-family: "Roboto", "Lucida Grande", "DejaVu Sans", "Bitstream Vera Sans", Verdana, Arial, sans-serif;
+}
+
+body {
+    background-image: linear-gradient(180deg, white 50%, steelblue 70%, black);
 }
